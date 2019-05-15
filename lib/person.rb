@@ -70,17 +70,16 @@ class Person
   end 
   
   def start_conversation(friend, topic)
-    case topic 
-      when politics
+    case 
+      when topic == politics
         self.happiness -= 2 
         friend.happiness -= 
         
         return "blah blah partisan blah lobbyist"
         
+      when topic == weather
         
-      when weather
-        
-      when other 
+      when topic == other 
       
     end 
   end 
