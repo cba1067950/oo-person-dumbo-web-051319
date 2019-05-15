@@ -70,6 +70,7 @@ class Person
   end 
   
   def start_conversation(friend, topic)
-    switch
+    case topic 
+    
   end 
 end 
