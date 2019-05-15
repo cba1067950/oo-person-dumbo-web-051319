@@ -71,6 +71,8 @@ class Person
   
   def start_conversation(friend, topic)
     case topic 
-    
+    when politics
+      
+    end 
   end 
 end 
