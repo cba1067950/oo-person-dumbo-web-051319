@@ -60,7 +60,12 @@ class Person
   def work_out 
     self.hygiene -= 3
     self.happiness += 2
-    return "♪ another one bites the dust ♫""
+    return "♪ another one bites the dust ♫"
   end
+  
+  def call_friend(friend)
+    friend.happiness += 3
+    self.happiness += 3 
+  end 
   
 end 
