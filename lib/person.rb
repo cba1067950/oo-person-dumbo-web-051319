@@ -79,10 +79,8 @@ class Person
         self.happiness += 1 
         friend.happiness += 1
         return "blah blah sun blah rain"
-      when topic == other 
+      else
         return "blah blah blah blah blah"
-      else 
-        return false
     end 
   end 
 end 
